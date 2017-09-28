@@ -1,0 +1,283 @@
+body{
+	background-image: url("../images/border.jpg");
+	/*source of image:
+	http://www.imovr.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/l/clove_mahogany_1.jpg*/
+
+}
+
+.body{
+	background-image: url("../images/border.jpg");
+	height: 580px;
+	width: 900px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:  -20px;
+	margin-bottom: -20px;
+	
+	
+}
+
+.top{
+	height: 55px;
+	width: 100%;
+	margin: auto;
+	padding-top: 25px;
+	text-align: center;
+	position: relative;
+	background-image: url("../images/border.jpg");
+}
+
+#title{
+	color:  red;
+	text-align: center;
+	display: inline-block;
+	font-size: 50px;
+	font-family: "Colonna MT";
+	/*font-family: "Book Antiqua";*/
+}
+
+.left{
+	float: left;
+	width: 35%;
+	padding-top: 5px;
+}
+
+.right{
+	float: right;
+	width: 35%;
+	padding-top: 5px;
+}
+
+.buttons{
+	display: inline-block;
+	font-size: 20px;
+	font-family: "Book Antiqua";
+	margin-left: 12px;
+	margin-right: 12px;
+	width: 118px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	border-color: #996600;
+	/*border-color: #e69900;*/
+	background-color:  rgb(9, 94, 37);
+	border-radius: 8px;
+	box-shadow: 0 3px #996600;
+}
+
+.buttons{
+	background-color:  rgb(9, 94, 37);
+	border-radius: 8px;
+	box-shadow: 0 3px #996600;
+}
+
+.buttons:hover{
+	/*background-color:  #3e8e41;*/
+	background-color: rgb(4, 76, 28);
+}
+
+.buttons:active{
+	background-color:  rgb(4, 76, 28);
+	box-shadow: 0 3px #664400;
+	transform: translateY(2px);
+}
+
+.buttons:disabled{
+	background-color:  rgb(9, 94, 37);
+	color: #666;
+	cursor: auto;
+}
+
+.trim{
+	height: 75%;
+	width: 90%;
+	margin: auto;
+	
+}
+
+.table{
+	border: 3px solid #996600;
+	/*border: 3px solid #e69900;*/
+	height: 85%;
+	width: 894px;
+	margin: auto;
+	border-radius: 20px;
+	background-image: url("../images/felt.jpg");
+	/*source of image: http://thepokerguys.net/wp-content/uploads/2016/03/perlinfelt1.jpg*/
+}
+
+.person{
+	border: 1px solid black;
+	margin: auto;
+}
+
+#player{
+	border: 1px solid black;
+}
+
+.banner{
+	height: 12%;
+	width: 100%;
+	font-size: 26px;
+	font-family: "Book Antiqua";
+	color: white;
+	position: relative;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#rules{
+	width: 98%;
+	height: 85%;
+	position: relative;
+	margin: auto;
+	font-family: "Book Antiqua";
+	font-size: 16px;
+	color: white;
+}
+
+#sectionHeader{
+	font-size: 18px;
+	font-family: "Book Antiqua";
+	font-weight: bold;
+	color: #e69900;
+}
+
+li{
+	margin-left: -10px;
+}
+
+ul{
+	margin-top: 0px;
+}
+
+.label{
+	text-align: center;
+	display: inline-block;
+	padding-top: 15px;
+	width: 100%;
+	position: absolute;
+}
+
+
+.score{
+	float: right;
+	margin-right: 20px;
+	z-index: 2;
+	position: relative;
+	padding-top: 15px;
+	
+}
+
+#playerCards{
+	margin-top: 1%;
+	margin-bottom: 6.5px;
+}
+
+#message{
+	position: relative;
+	font-size: 24px;
+	font-family: "Book Antiqua";
+	color: #e69900;
+	padding-bottom: 10px;
+	/*margin-top: 2%;*/
+	/*width:  100%;*/
+}
+
+.cards{
+	margin: auto;
+	margin-top: 5px;
+	text-align: center;
+	width: 95%;
+	position: relative;
+	
+}
+
+.backOfCard{
+	height: 147px;
+	width: 108.5px;
+	display: inline-block;
+	background-image: url("../images/back_of_card.jpg");
+	position: 0px -75px;
+	margin: 0px 5px;
+	background-size:  108px;
+	/*source of image = 
+	http://magicdirect.com/bicycle-playing-cards-809-mandolin-back-red-by-uspcc-trick 
+	*/
+	
+}
+
+
+.picture{
+	height: 147px;
+	width: 108.5px;
+	background-image:  url("../images/deck_of_cards.png");
+	/*source of image = 
+	http://dev.kingkool68.com/war/classic-playing-cards.png
+	*/
+	background-position: 0px 0px;
+	background-size:  1425px;
+	margin: 0px 5px;
+	display: inline-block;
+	
+}
+
+
+#Clubs_A{ background-position:     0px 0px; }
+#Clubs_2{ background-position:  -110px 0px; }
+#Clubs_3{ background-position:  -219px 0px; }
+#Clubs_4{ background-position:  -328px 0px; }
+#Clubs_5{ background-position:  -437px 0px; }
+#Clubs_6{ background-position:  -547px 0px; }
+#Clubs_7{ background-position:  -657px 0px; }
+#Clubs_8{ background-position:  -767px 0px; }
+#Clubs_9{ background-position:  -876px 0px; }
+#Clubs_10{ background-position: -985px 0px; }
+#Clubs_J{ background-position:  -1095px 0px;}
+#Clubs_Q{ background-position:  -1203.5px 0px;}
+#Clubs_K{ background-position:  -1313.5px 0px;}
+
+#Spades_A{ background-position:     0px -147px; }
+#Spades_2{ background-position:  -110px -147px; }
+#Spades_3{ background-position:  -219px -147px; }
+#Spades_4{ background-position:  -328px -147px; }
+#Spades_5{ background-position:  -437px -147px; }
+#Spades_6{ background-position:  -547px -147px; }
+#Spades_7{ background-position:  -657px -147px; }
+#Spades_8{ background-position:  -767px -147px; }
+#Spades_9{ background-position:  -876px -147px; }
+#Spades_10{ background-position: -985px -147px; }
+#Spades_J{ background-position:  -1095px -147px;}
+#Spades_Q{ background-position:  -1203.5px -147px;}
+#Spades_K{ background-position:  -1313.5px -147px;}
+
+#Hearts_A{ background-position:     0px -294px; }
+#Hearts_2{ background-position:  -110px -294px; }
+#Hearts_3{ background-position:  -219px -294px; }
+#Hearts_4{ background-position:  -328px -294px; }
+#Hearts_5{ background-position:  -437px -294px; }
+#Hearts_6{ background-position:  -547px -294px; }
+#Hearts_7{ background-position:  -657px -294px; }
+#Hearts_8{ background-position:  -767px -294px; }
+#Hearts_9{ background-position:  -876px -294px; }
+#Hearts_10{ background-position: -985px -294px; }
+#Hearts_J{ background-position:  -1095px -294px;}
+#Hearts_Q{ background-position:  -1203.5px -294px;}
+#Hearts_K{ background-position:  -1313.5px -294px;}
+
+#Diamonds_A{ background-position:     0px -441px; }
+#Diamonds_2{ background-position:  -110px -441px; }
+#Diamonds_3{ background-position:  -219px -441px; }
+#Diamonds_4{ background-position:  -328px -441px; }
+#Diamonds_5{ background-position:  -437px -441px; }
+#Diamonds_6{ background-position:  -547px -441px; }
+#Diamonds_7{ background-position:  -657px -441px; }
+#Diamonds_8{ background-position:  -767px -441px; }
+#Diamonds_9{ background-position:  -876px -441px; }
+#Diamonds_10{ background-position: -985px -441px; }
+#Diamonds_J{ background-position:  -1095px -441px;}
+#Diamonds_Q{ background-position:  -1203.5px -441px;}
+#Diamonds_K{ background-position:  -1313.5px -441px;}
+
